@@ -3,16 +3,16 @@
   <img src="assets/images/logowhite.jpg" height="300" width="300" align="right"/>
 </header>
 <!--navbar-->
-<nav> 
+<nav>
   <ul>
-     <a href="/">Home</a>  
-      <a href="/us">Who we are</a>
-      <a href="/contact">Contact Us</a>
+    {{link-to 'Home' 'index'}}
+    {{link-to 'Who we are' 'about'}}
+    {{link-to 'Contact Us' 'contact'}}
   </ul>
 </nav>
 
 <div>
-{{outlet}}
+  {{outlet}}
 </div>
 
 <!--footer text-->
