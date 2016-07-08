@@ -3,3 +3,22 @@ $roboto-font-path: '../assets/';
 
 // Materialize styles
 @import "materialize";
+
+header {
+}
+
+.text-purple {
+  @extend .purple-text, .text-darken-4;
+}
+
+.background-purple {
+  @extend .purple, .darken-4, .white-text;
+}
+
+.square-border {
+  border: 2px solid;
+}
+
+.round-border {
+  border-radius: 15px;
+}
