@@ -1,30 +1,6 @@
-<header>
-  <h1>
-    {{link-to "Midwest Moving" "index" class="square-border text-purple"}}
-  </h1>
-  <div class="background-purple round-border">
-    <h4>Servicing the Twin Cities</h4>
-    <h4>and Surrounding Area</h4>
-  </div>
-  <div>
-    <img src="assets/images/logowhite.jpg"
-         height="300"
-         width="300"
-         align="right" />
-  </div>
-</header>
-<!--navbar-->
-<nav>
-  <ul>
-    {{link-to "Home" "index"}}
-    {{link-to "Who we are" "about"}}
-    {{link-to "Contact Us" "contact"}}
-  </ul>
-</nav>
-
-<div>
-  {{outlet}}
+<div class="container">
+  {{mw-header}}
+  {{!-- mw-navbar --}}
+  {{!-- outlet --}}
+  {{!-- mw-footer --}}
 </div>
-
-<!--footer text-->
-<footer> <h4> Copyright AlienCyborg 2016 &copy; </h4> </footer>
