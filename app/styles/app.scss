@@ -10,6 +10,13 @@ header {
   }
 }
 
+body {
+  background-image: url("images/truckmoving.jpg");
+  background-repeat: no-repeat;
+  background-attachment: contain;
+  background-position: center;
+}
+
 .background-purple {
   @extend .purple, .darken-4, .white-text;
 }
