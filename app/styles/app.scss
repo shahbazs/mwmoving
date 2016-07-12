@@ -3,3 +3,26 @@ $roboto-font-path: '../assets/';
 
 // Materialize styles
 @import "materialize";
+
+header {
+  .mw-box {
+    max-height: 217px;
+  }
+}
+
+.background-purple {
+  @extend .purple, .darken-4, .white-text;
+}
+
+.round-border {
+  border-radius: 15px;
+}
+
+.square-border {
+  border: 5px solid;
+  @extend .purple-text, .text-darken-4;
+}
+
+.text-purple {
+  @extend .purple-text, .text-darken-4;
+}

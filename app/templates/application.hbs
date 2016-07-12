@@ -1,19 +1,8 @@
-<header>
-  <a href="/"><h1>Midwest Moving</h1></a>
-  <img src="assets/images/logowhite.jpg" height="300" width="300" align="right"/>
-</header>
-<!--navbar-->
-<nav> 
-  <ul>
-     <a href="/">Home</a>  
-      <a href="/us">Who we are</a>
-      <a href="/contact">Contact Us</a>
-  </ul>
-</nav>
+<div class="container">
+  {{mw-header}}
+  {{mw-navbar}}
 
-<div>
-{{outlet}}
+  {{outlet}}
+
+  {{mw-footer}}
 </div>
-
-<!--footer text-->
-<footer> <h4> Copyright AlienCyborg 2016 &copy; </h4> </footer>
