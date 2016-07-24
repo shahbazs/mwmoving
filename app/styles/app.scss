@@ -15,10 +15,19 @@ body {
   background-repeat: no-repeat;
   background-attachment: contain;
   background-position: center;
+  padding: 20px;
+}
+
+.background-white {
+  @extend .white;
 }
 
 .background-purple {
   @extend .purple, .darken-4, .white-text;
+}
+
+.logo-frame {
+  margin-top: 1rem;
 }
 
 .round-border {
@@ -30,6 +39,27 @@ body {
   @extend .purple-text, .text-darken-4;
 }
 
+.thick-square-border {
+  border: 10px solid;
+  @extend .purple-text, .text-darken-4;
+}
+
 .text-purple {
   @extend .purple-text, .text-darken-4;
+}
+
+/*** COMPONENTS ***/
+
+.mw-header {
+  h1 {
+    margin-top: 1rem;
+  }
+  h4 {
+    &:first-child {
+      padding-top: 5px;
+    }
+    &:last-child {
+      padding-bottom: 5px;
+    }
+  }
 }
