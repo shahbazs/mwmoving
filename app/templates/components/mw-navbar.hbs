@@ -1,7 +1,19 @@
-<nav class="background-purple">
-  <ul>
-    {{link-to "Home" "index"}}
-    {{link-to "Who we are" "about"}}
-    {{link-to "Contact Us" "contact"}}
-  </ul>
+<nav class="background-purple hide-on-small-only">
+  <div class="nav-wrapper">
+    <ul class="left">
+      {{link-to "Home" "index"}}
+      {{link-to "Services" "services"}}
+      {{link-to "About" "about"}}
+      {{link-to "Contact Us" "contact"}}
+    </ul>
+  </div>
 </nav>
+
+<div class="hide-on-med-and-up">
+  <ul>
+    <li>{{link-to "Home" "index" class="btn background-purple"}}</li>
+    <li>{{link-to "Services" "services" class="btn background-purple"}}</li>
+    <li>{{link-to "About" "about" class="btn background-purple"}}</li>
+    <li>{{link-to "Contact Us" "contact" class="btn background-purple"}}</li>
+  </ul>
+</div>
